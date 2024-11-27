@@ -1,11 +1,12 @@
-# OIBSIP Project
+#Overview
+#The OIBSIP project is part of the OIBSIP program and involves different components for practical application.
 
-## Overview
-The *OIBSIP* project is a comprehensive project developed as part of the *OIBSIP* (Online Internship and Bootcamp) program. It consists of various components and folders that contribute to its functionality.
+#Features
+#Feature 1: Core functionality of the project.
+#Feature 2: Additional modules included.
+#Feature 3: Unique functionalities.
 
-## Features
-- *Feature 1*: Describe the main feature or functionality of the project.
-- *Feature 2*: Additional features or modules you have included.
-- *Feature 3*: Any unique or special functionalities.
-
-## Project Structure
+#Project Structure
+#To Do: Contains tasks and project management resources.
+#Calculator: Includes all files related to the development of a calculator tool.
+#Tribute Page: Contains the HTML, CSS, and assets for the tribute page project.
