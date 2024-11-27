@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Static To-Do App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="wrapper">
+    <h1 class="title">My To-Do List</h1>
+
+    <!-- Task Input Section -->
+    <div class="input-area">
+      <input type="text" id="new-task" placeholder="Add a new task..." disabled />
+      <button id="submit-task" disabled>Add Task</button>
+    </div>
+
+    <!-- Pending Tasks Section -->
+    <div class="task-group">
+      <h2>Tasks to Do</h2>
+      <ul id="todo-list">
+        <li>
+          <span>Example Pending Task 1</span>
+          <button class="remove-btn" disabled>X</button>
+        </li>
+        <li>
+          <span>Example Pending Task 2</span>
+          <button class="remove-btn" disabled>X</button>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Completed Tasks Section -->
+    <div class="task-group">
+      <h2>Finished Tasks</h2>
+      <ul id="done-list">
+        <li class="done">
+          <span>Example Completed Task 1</span>
+          <button class="remove-btn" disabled>X</button>
+        </li>
+        <li class="done">
+          <span>Example Completed Task 2</span>
+          <button class="remove-btn" disabled>X</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+</body>
+</html>

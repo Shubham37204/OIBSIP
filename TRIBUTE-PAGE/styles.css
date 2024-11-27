@@ -1,0 +1,112 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+/* Header Styles */
+.header {
+    background: linear-gradient(135deg, #0078d4, #00bcd4);
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+.hero {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.hero-title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0;
+}
+.hero-subtitle {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-top: 0.5rem;
+}
+
+/* Bio Section */
+.bio {
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 2rem auto;
+    padding: 2rem;
+    max-width: 900px;
+    display: flex;
+    gap: 1.5rem;
+    border-radius: 8px;
+}
+.bio-image {
+    max-width: 40%;
+    border-radius: 8px;
+    object-fit: cover;
+}
+.bio-text {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+}
+
+/* Milestones Section */
+.milestones {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #e3f2fd;
+}
+.section-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #0078d4;
+}
+.milestone-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+.card {
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    max-width: 300px;
+    padding: 1.5rem;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+.card h3 {
+    font-size: 1.25rem;
+    margin: 0 0 0.5rem;
+    color: #0056a3;
+}
+.card p {
+    margin: 0;
+}
+
+/* Heritage Section */
+.heritage {
+    background-color: #f1f8e9;
+    padding: 2rem 1rem;
+    text-align: justify;
+    max-width: 900px;
+    margin: 2rem auto;
+    border-radius: 8px;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 1rem;
+    background: #004d80;
+    color: white;
+    font-size: 0.875rem;
+}
